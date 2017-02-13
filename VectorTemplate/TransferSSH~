@@ -1,0 +1,13 @@
+S to L
+
+rsync -avzh ygong60@deepthought19.cc.gatech.edu:/nethome/ygong60/Vector /home/yicong/Georgia_Tech_Fall_2016/AdvProg/Project3/
+
+
+L to S
+
+rsync -avz /home/yicong/Georgia_Tech_Fall_2016/AdvProg/Project3/Vector/ ygong60@deepthought19.cc.gatech.edu:/nethome/ygong60/Vector
+
+
+Update
+
+/usr/bin/rsync -avu /nethome/ECE6122/ThreadsTransform2D .

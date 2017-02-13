@@ -1,0 +1,13 @@
+S to L
+
+rsync -avzh ygong60@deepthought19.cc.gatech.edu:/nethome/ygong60/Icosahedron /home/yicong/Georgia_Tech_Fall_2016/AdvProg/Project5/
+
+
+L to S
+
+rsync -avz /home/yicong/Georgia_Tech_Fall_2016/AdvProg/Project5/Icosahedron/ ygong60@deepthought19.cc.gatech.edu:/nethome/ygong60/Icosahedron
+
+
+Update
+
+/usr/bin/rsync -avu /nethome/ECE6122/Icosahedron .

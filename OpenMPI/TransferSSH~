@@ -1,0 +1,11 @@
+S to L
+
+rsync -avzh ygong60@deepthought19.cc.gatech.edu:/nethome/ygong60/FourierTransform2D /home/yicong/Georgia_Tech_Fall_2016/AdvProg/Project1 
+
+
+L to S
+
+rsync -avz /home/yicong/Georgia_Tech_Fall_2016/AdvProg/Project1/FourierTransform2D/ ygong60@deepthought19.cc.gatech.edu:/nethome/ygong60/FourierTransform2D
+
+
+Update
